@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@color/black"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            app:cardCornerRadius="24dp"
+            android:id="@+id/CodingNinjas"
+            app:cardBackgroundColor="@color/white"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:src="@drawable/coding"
+                android:layout_marginTop="50dp"
+
+                ></ImageView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="24dp"
+            app:cardBackgroundColor="@color/white"
+            android:id="@+id/gfg"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:layout_margin="20dp"
+                android:src="@drawable/geeksforgeeks"
+                >
+
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+        ></LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/black"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="24dp"
+            android:id="@+id/codechef"
+            app:cardBackgroundColor="@color/white"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:src="@drawable/codechef"
+                android:layout_margin="20dp"
+                >
+
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="24dp"
+            android:id="@+id/leetcode"
+            app:cardBackgroundColor="@color/white"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/leetcode"
+                android:background="@color/white"
+                android:layout_margin="20dp"
+                >
+
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/black"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="24dp"
+            android:id="@+id/codeforces"
+            app:cardBackgroundColor="@color/white"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/codeforces"
+                android:background="@color/white"
+                android:layout_margin="20dp"
+                >
+
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="24dp"
+            app:cardBackgroundColor="@color/white"
+            android:id="@+id/linkdin"
+            >
+
+            <ImageView
+                android:layout_width="116dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/link"
+                android:background="@color/white"
+                >
+
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/black"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="24dp"
+            app:cardBackgroundColor="@color/white"
+            android:id="@+id/Github"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/github"
+                android:background="@color/white"
+                android:layout_margin="20dp"
+                >
+
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</LinearLayout>

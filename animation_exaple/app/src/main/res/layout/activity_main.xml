@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#185DD3"
+    >
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/Sample"
+        android:textSize="40dp"
+        android:textColor="#fff"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="11dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="11dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btntranslate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="11dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_button"
+                android:text="Traslate"
+                android:textColor="#fff"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnalpha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="11dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_button"
+                android:text="Alpha"
+                android:textColor="#fff"
+                />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="11dp"
+            android:orientation="horizontal"
+
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnrotate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="11dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_button"
+                android:text="Rotate"
+                android:textColor="#ffff"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnresize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="11dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_button"
+                android:text="Resize"
+                android:textColor="#fff"
+                />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+
+</RelativeLayout>
